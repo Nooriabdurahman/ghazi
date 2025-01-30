@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Image</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="pl-[10px] pt-[10px] flex flex-col  p-[20px] items-center justify-center m-auto ">
+        <h1  class="mb-[20px]">hello here you can type a topic to now about it</h1>
+        <input type="text"  class="border pl-[10px] rounded-[10px] w-[200px] " placeholder="enter a topic" id="Inputq"><br>
+        <input type="text"  class="border pl-[10px] rounded-[10px] w-[200px]" placeholder="enter a country" id="Inputc"> <br>
+        <input type="number"  class="border pl-[10px] rounded-[10px] w-[200px]" min="1" max="10" placeholder="how much newis want" id="Inputn">
+        <button class="border mt-[10px] rounded-[10px] px-[10px] py-[5px] w-[100px] cursor-pointer" id="button">submet</button>
+        <h1></h1>
+    </div>
+
+    <div id="goumble" class="w-[700px] flex-col flex items-center m-auto px-[10px]  text-[#ffffff] pt-[20px] rounded-[10px]" >
+        <h1 id="title" class=" text-3xl mb-[30px] text-center" ></h1>
+        <p id="describe" class="text-center mb-[30px]"></p>
+        <p id="content"></p>
+        <img id="image" class="w-[500px] rounded-2xl" src=""alt="">
+        <p id="date"></p></p>
+        <p id="source"> <a class="hover:text-amber-200" href="https://www.devdiscourse.com"></a></p>
+       
+    </div>
+</body>
+</html>
+
+<script src="script.js"></script>
